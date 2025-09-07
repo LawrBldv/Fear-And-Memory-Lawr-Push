@@ -136,7 +136,7 @@ public class AudioManager : MonoBehaviour
         {
             FootstepsSource.pitch = Random.Range(minPitch, maxPitch);
             FootstepsSource.PlayOneShot(clip);
-            FootstepsSource.pitch = 1f;
+            //FootstepsSource.pitch = 1f;
         }
     }
 
